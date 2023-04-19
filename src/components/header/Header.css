@@ -1,0 +1,16 @@
+#header{
+    background-color: #7C96AB;
+    text-align: center;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+}
+#header h1{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
