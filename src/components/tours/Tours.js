@@ -1,8 +1,16 @@
 import './Tours.css'
-
+import Tour from './tour/Tour';
 
 function Tours(props){
-    console.log(props);
+   console.log(props);
+    return(
+         props.data.map(tour =>
+            <Tour tour={tour} key={tour.id} />
+        )
+    )
+     
+    
+   /*data from previous lab 
     return(
         <>
         <div className="tours">
@@ -11,7 +19,7 @@ function Tours(props){
             return(
                 <div key={item.id}>
                     <h3>{item.name}</h3>
-                    <img src={item.image}></img>
+                    <img src={item.image} alt={item.name}></img>
                     <hr/>
                 </div>
             )
@@ -19,6 +27,6 @@ function Tours(props){
         </div>
         </>
     
-    )
+    ) */
 }
 export default Tours;
