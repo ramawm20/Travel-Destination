@@ -18,11 +18,16 @@
   background-color: #ffffff;
   min-height: 100vh;
   display: flex;
+  display: flex;
   flex-direction: column;
+  width: 100%;
+  gap: 20px;
   /* align-items: center;
   justify-content: center; */
   font-size: calc(10px + 2vmin);
   /* color: white; */
+  background-image: url("./components/photo/background.jpg");
+  background-size: cover;
 }
 
 .App-link {
